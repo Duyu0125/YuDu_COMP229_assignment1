@@ -1,0 +1,91 @@
+
+.mission-image-container img {
+    max-width: 100%; /* ensures the image is responsive and does not overflow its container */
+    height: auto; /* maintains the aspect ratio of the image */
+    display: block;
+    margin: 0 auto; /* centers the image horizontally */
+}
+
+
+.mission-statement {
+    margin-top: 30px;
+}
+
+.home-buttons .button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.home-buttons .button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+html{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#intro {
+height: calc(100vh -4em);
+width: 100vw;
+max-width: 75em;
+margin: 0 auto;
+overflow: hidden;
+position: relative;
+font-size:x-large;
+}
+
+.bg{
+    position:absolute;
+    top: -4em;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2em;
+    font-size: 3em;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight:100;
+}
+
+.introName {
+    color: yellow;
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 100;
+}
+
+.btn {
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btnImg{
+    
+}
